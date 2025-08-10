@@ -38,3 +38,12 @@ CREATE TABLE netflix (
     description  VARCHAR(550)
 );
 
+🛠 Business Problems & Solutions
+Count the Number of Movies vs TV Shows
+
+sql
+Copy
+Edit
+SELECT type, COUNT(*) 
+FROM netflix 
+GROUP BY 1;
